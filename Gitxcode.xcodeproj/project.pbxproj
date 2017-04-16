@@ -14,6 +14,7 @@
 		2C7C507C1EA2095800C80A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7C507A1EA2095800C80A96 /* LaunchScreen.storyboard */; };
 		2C7C50871EA2095800C80A96 /* GitxcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C50861EA2095800C80A96 /* GitxcodeTests.swift */; };
 		2C7C50921EA2095800C80A96 /* GitxcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C50911EA2095800C80A96 /* GitxcodeUITests.swift */; };
+		2CECF1671EA36C320031A665 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECF1661EA36C320031A665 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2C7C508D1EA2095800C80A96 /* GitxcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitxcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7C50911EA2095800C80A96 /* GitxcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitxcodeUITests.swift; sourceTree = "<group>"; };
 		2C7C50931EA2095800C80A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CECF1661EA36C320031A665 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2C7C50711EA2095800C80A96 /* AppDelegate.swift */,
 				2C7C50731EA2095800C80A96 /* ViewController.swift */,
+				2CECF1661EA36C320031A665 /* MapViewController.swift */,
 				2C7C50751EA2095800C80A96 /* Main.storyboard */,
 				2C7C50781EA2095800C80A96 /* Assets.xcassets */,
 				2C7C507A1EA2095800C80A96 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C7C50741EA2095800C80A96 /* ViewController.swift in Sources */,
+				2CECF1671EA36C320031A665 /* MapViewController.swift in Sources */,
 				2C7C50721EA2095800C80A96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				2C7C50981EA2095800C80A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C7C50991EA2095800C80A96 /* Build configuration list for PBXNativeTarget "GitxcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				2C7C509B1EA2095800C80A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C7C509C1EA2095800C80A96 /* Build configuration list for PBXNativeTarget "GitxcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				2C7C509E1EA2095800C80A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
